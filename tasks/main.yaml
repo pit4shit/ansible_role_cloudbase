@@ -27,7 +27,7 @@
 
 - name: register ansible users ssh key
   authorized_key:
-    user: "{{acu_user}}"
+    user: "{{ acu_user }}"
     state: present
     key: "{{ lookup('file', acu_pubkeyfile) }}"
     manage_dir: yes
