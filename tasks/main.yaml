@@ -18,7 +18,7 @@
 - name: create ansible user
   user:
     name: "{{ acu_user }}"
-    password: "{{ acu_passwd }}"
+    password: "{{ acu_passwd | password_hash('sha512') }}"
     groups: "{{ acu_groups }}"
     shell: /bin/bash
     system: no
