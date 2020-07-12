@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: cloudbase
   author: pit4shit
   description: Basic install for cloud images
   min_ansible_version: 2.4
