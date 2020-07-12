@@ -1,0 +1,5 @@
+---
+- name: install sudo
+  package:
+    name: sudo
+    state: latest

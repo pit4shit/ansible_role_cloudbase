@@ -1,0 +1,2 @@
+# User privilege specification
+{{ acu_user }}	ALL=NOPASSWD: ALL

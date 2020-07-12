@@ -1,0 +1,24 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: pit4shit
+  description: Basic install for cloud images
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - system
+    - security
+    - automatic
