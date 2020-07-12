@@ -1,3 +1,4 @@
+---
 acu_user: ans
 acu_passwd: "secretpassword"
 acu_pubkeyfile: "~/.ssh/id_rsa.pub"
